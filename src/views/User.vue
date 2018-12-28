@@ -1,5 +1,8 @@
 <template>
+	<div class="box">
+<h2>登录个人中心</h2>
 <foot-bar></foot-bar>
+</div>
 </template>
 
 <script>

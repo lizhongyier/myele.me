@@ -1,5 +1,8 @@
 <template>
+	<div class="box">
+<h2>发现</h2>
 	<foot-bar></foot-bar>
+	</div>
 </template>
 
 <script>
