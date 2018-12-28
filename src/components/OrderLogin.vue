@@ -13,9 +13,31 @@
 
 <style>
 	.order-login{
-		width: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
 		text-align:center;
 		background-color: #f5f5f5;
-		height: 100%;
+		padding-top: 50px;
+		box-sizing: border-box;
+	}
+	.order-login .button-log{
+		margin-top: 30px;
+	}
+	.order-login .button-log p{
+		font-size: 20px;
+		color: #666;
+	}
+	.order-login .button-log span{
+		display: inline-block;
+		font-size: 16px;
+		width: 150px;
+		color: #FFFFFF;
+		height: 38px;
+		line-height: 38px;
+		background-color: #56d176;
+		border-radius: 3px;
 	}
 </style>
