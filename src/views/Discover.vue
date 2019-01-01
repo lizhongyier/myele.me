@@ -30,9 +30,24 @@
 		</div>
 		<div class="middlebody">
 			<div class="middletop">
-				<span></span><i class="fa fa-clock-o"></i>限时好礼<span></span>
-				<p>金币换好礼</p>
+				<span style="display: inline-block; margin: 5px 0px; width: 10px; border: 1px solid #666666;"></span><i class="fa fa-clock-o" style="margin: 5px; color: #E81919;"></i>限时好礼<span style="display: inline-block; margin: 5px; width: 10px; border: 1px solid #666666;"></span>
+				<p style="display: block; height: 20px; line-height: 20px; margin: 0px; font-size: 12px; color: #999; padding: 0px;">金币换好礼</p>
 			</div>
+			<ul class="middle">
+				<li>
+					<span>限时优惠</span><img src="../../public/img2/quan1.png"/>
+				    <div class="textt"><p>3元饿了么鲜果超市红包</p><b style="color: red;">90金币</b><span style="text-decoration: line-through;color: #999;">￥3</span></div>
+				</li>
+				<li>
+					<span>特价换购</span><img src="../../public/img2/quan2.jpeg"/>
+				    <div class="textt"><p>扫地机器人</p><b style="color: red;">190金币</b><span style="text-decoration: line-through;color: #999;">￥99</span></div>
+				</li>
+				<li>
+					<span>特价换购</span><img src="../../public/img2/quan3.jpeg"/>
+				    <div class="textt"><p>电动按摩理疗仪</p><b style="color: red;">290金币</b><span style="text-decoration: line-through;color: #999;">￥299</span></div>
+				</li>
+			</ul>
+			<div class="watchmore"><a href="#">查看更多></a></div>
 		</div>
 	<foot-bar></foot-bar>
 	</div>
@@ -133,5 +148,77 @@
 	.toparea .topright .box2 a img{
 		width: 100%;
 		height: 100%;
+	}
+	.middlebody{
+		width: 100%;
+		height: 350px;
+		margin-top: 10px;
+		background-color: #FFFFFF;
+	}
+	.middletop{
+		width: 100%;
+		height: 70px;
+		padding-top: 10px;
+		text-align: center;
+		font-size: 18px;
+		box-sizing: border-box;
+	}
+	.middlebody .middle{
+		width: 100%;
+		list-style-type: none;
+		padding:0px 10px;
+		box-sizing: border-box;
+	}
+	.middlebody .middle li{
+		float: left;
+		width: 33%;
+		position: relative;
+	}
+	.middlebody .middle li img{
+		width: 100%;
+	}
+	.middlebody .middle li>span{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		color: #fff;
+		font-size: .293333rem;
+	    background: #413d3c;
+	    padding: .066667rem;
+	    padding: .666667vw;
+	}
+	.middlebody .middle li .textt{
+		font-size: .346667rem;
+	    color: #333;
+	    margin-bottom: .133333rem;
+	    margin-bottom: 1.333333vw;
+		width: 100%;
+		
+	}
+	.middlebody .middle li .textt{
+		text-align: center;
+	}
+	.middlebody .middle li .textt p{
+		display: block;
+		margin-block-start: 1em;
+	    margin-block-end: 1em;
+	    margin-inline-start: 0px;
+	    margin-inline-end: 0px;
+		overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+	.watchmore{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.watchmore a{
+		text-decoration: none;
+		color: #666666;
+		font-size: 12px;
 	}
 </style>
